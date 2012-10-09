@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
+.reveal ul.list {
+  list-style-type: none;
+}
+
+.reveal ul.list li {
+  font-size: 62px;
+  line-height: 82px;
+}
+
+.reveal ul.strengths {
+  list-style-type: none;
+}
+.strengths li {
+  float: left;
+  width: 300px;
+}
+
+.resources li {
+  font-size: 72px;
+  line-height: 86px;
+}
+
 a {
   line-height: 60px;
   color: #2233AA;
@@ -123,6 +145,7 @@ body {
   /*background: radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);*/
 }
 
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -131,14 +154,17 @@ body {
 .reveal h3, 
 .reveal h4 {
   
-  line-height: 0.9em;
+  line-height: 1.0em;
   letter-spacing: 0.02em;
   
   /*text-transform: uppercase;*/
   text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
 }
 
-.reveal h1 { font-size: 186px;  }
+.reveal h1 { 
+  font-size: 136px;  
+  line-height: 1.0em;
+}
 .reveal h2 { font-size: 106px; }
 .reveal h3 { font-size: 66px; }
 .reveal h4 { font-size: 66px; }
@@ -240,14 +266,16 @@ body {
 }
 
 .reveal blockquote {
+  font-size: 56px;
+  line-height: 62px;
   display: block;
   position: relative;
-  width: 70%;
+  width: 100%;
   margin: 5px auto;
   padding: 5px;
   
-  font-style: italic;
-  background: rgba(255, 255, 255, 0.05);
+  /*font-style: italic;*/
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
   .reveal blockquote:before {
